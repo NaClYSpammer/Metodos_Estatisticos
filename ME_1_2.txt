@@ -1,0 +1,91 @@
+**************
+P(AUB)=P(A)+P(B)-P(A/\B)
+P(A/\B)=P(A)*P(B) se sao indep
+P(AUB/C)=P(A/C)+P(B/C)-P(A/\B/C
+P(A/B)=P(A/\B)/P(B)
+P(nA/B)=1-P(A/B)
+
+**************
+Funcao distribu
+F(x)->sistema  
+0,   se x<0
+1/3, se 0≤x<1
+2/3, se 1≤x<2
+1,   se x≥2
+
+**************
+Esperanca E(X)
+Σx*P(X=x)
+E(X²)=Σx²*P(X=x
+E(X*Y)=Σx*y*P(X=x/\Y=y)
+E(c*X)=c.E(X)
+E(c)=c
+E(X+c)=E(X)+c
+E(X+Y)=E(X)+E(Y
+
+**************
+Variancia V(X)
+E(X²)-E(X)²
+V(c*X)=c²*V(X)
+V(c)=0
+V(X+Y)=V(X)+V(Y)+2Cov(X,Y)
+V(X-Y)=V(X)+V(Y)-2Cov(X,Y)
+
+**************
+Desvio padrao
+σ(X)=√V(X)
+
+**************
+Cov(X,Y)=E(X*Y)-E(X)*(E(Y)
+Cov(X,X)=V(X)
+X,Y indp->Cov(X,Y)=0
+Cov(X,Y)≠0, X,Y nao sao indp
+
+**************
+Coeficiente de correlacao
+ρXY=Cov(X,Y)/√(V(X)*V(Y))
+-1≤ρXY≤1
+
+**************
+X~β(n,ρ)
+n=repeticoes
+ρ=P("sucesso")
+aCb=a!/(b!*(a-b)!)
+Equ P(X=k)
+Tab P(X≤x)=F(x)
+
+**************
+X~H(n,N,M)
+n=repeticoes
+N=popula total
+M=PopuSucesso
+P(X=x)=[(MCx)*(N-M)Cn]/NCn
+
+**************
+Aproximacoes
+Ver pag1 Tab
+H->β
+Caso PopuTotal seja muito grande com P(sucesso)≤0.1
+em que remover 1 nao faz quase nada
+
+β->P
+Caso P(sucesso)≤0.1,muitobaixo,assumirPoisson
+
+**************
+X~P(λ)
+E(X)=V(X)=λ
+Equ P(X=k)
+Tab P(X≤x)=F(x
+
+**************
+Proba Marginal
+tab x*P(X=x)
+
+P(X=x/Y=0) =   P(X=x/\Y=0)/P(Y=0) -> sistema
+
+X e Y indp?
+P(X/\Y)=P(X)*P(Y)
+ou
+Cov(X,Y)=0
+ou
+P(Y=y/X=x)=P(Y=y)
