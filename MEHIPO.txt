@@ -1,0 +1,19 @@
+**************
+Hipotese
+1-Formular hipotese H0 vs H1 e especificar α
+2-Pag4 Tabs
+3-Calcular RegiaoCritica para ex P(T<z)=1-α
+4-Calcular passo2 tobs
+5-Escrever conclusao (tobs pertence a RC, regeitar H0)
+
+**************
+Caso RC seja Bilateral,
+(1-α)+α/2
+RC=]-oo,-z[U]z,+oo[
+
+**************
+testar para desvio padrao
+quiQuadrado
+nao simetrica portanto calcular z1 e z2
+atencao aos
+σ e s com ²

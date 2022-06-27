@@ -1,0 +1,42 @@
+**************
+TLC
+se x1,x2...xn
+sao indep
+distr=X
+n>30
+
+regrasGerais
+(_x = xLinha)
+(.~=distAprox)
+
+_x=pag4 tab
+V(_x)= V(X)/N = σ²/2
+
+(_X-E(_X))
+/√V(_X)
+.~N(0,1)
+
+CentrarRedu
+UsarParaCalc
+QuantMedia
+_X~N(µ,σ/√n)=
+√n*(_X-µ)/σ
+~N(0,1)
+
+DecomporTLC
+UsarParaCalc
+QuantTotal
+(_X-E(_X))
+/√V(_X)
+.~N(0,1)
+=
+(n(1/nΣxi-E(_X)))
+/n(σ/√n)
+.~N(0,1)
+=
+(Σxi-nµ)
+/(σ√n)
+.~N(0,1)
+=
+Σxi.~N(
+nµ,√(n)σ)

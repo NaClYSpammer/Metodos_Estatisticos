@@ -1,0 +1,23 @@
+**************
+VarFulcral
+Estimacao
+
+- Paramentro desconhecido
+µ ou σ usualy
+-InterConfian
+(1-α)%
+
+1)Escolher var fulcral(pag4Tabs)
+2)Enquadrar no intervalo ex:P(-z<Z<z)=α
+3)Resolver inequacao para µ ou σ
+4)Substituir resto no acima
+
+**************
+Erro aprox
+E=z*(σ/√n)
+
+**************
+Pedem conf para uma dada amplitude
+-Resolver normalmente
+-No passo 4 por amplitude em evidencia
+-Procurar n e z na tabela inversa

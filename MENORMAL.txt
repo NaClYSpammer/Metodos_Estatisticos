@@ -1,0 +1,20 @@
+**************
+Distr Normal
+X~N(µ,σ)
+P(X<N)
+
+Centrar e
+reduzir:
+X~N(µ,σ) =
+(X-µ)/σ~(0,1)
+
+Somar duas
+P(X1<X1) =
+P(X1-X2<0)
+ entao
+X1~N(µ1,σ1)+
+X2~N(µ2,σ2)=
+Y~N(µ1-µ2, 
+√(σ1²+σ2²))
+nova va =
+P(Y<0)
