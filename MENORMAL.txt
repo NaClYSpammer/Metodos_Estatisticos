@@ -1,3 +1,7 @@
+^θ bom estimador se E(^θ)=θ
+se nao, enviasado
+propriedades de estimadores nao dependem de n
+
 **************
 Distr Normal
 X~N(µ,σ)
